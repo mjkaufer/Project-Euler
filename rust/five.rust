@@ -14,7 +14,7 @@ fn main(){
 
 fn evenlyDivisible(num: u64) -> bool{//bool whether or not num is divisible by all numbers from 1-20; ignore 1 and 2
 	//todo, optimize with GCD/LCM stuff
-	for i in 3..21{
+	for i in 11..21{
 		if num % i != 0{
 			return false;
 		}
